@@ -1,8 +1,6 @@
 import aiohttp, asyncio, os
-from Modules import loadcred
-from Modules.loadcred import load_credentials
 
-token = load_credentials()
+token = ""
 
 class Nuke:
     def __init__(self):
